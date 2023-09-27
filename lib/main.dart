@@ -5,8 +5,6 @@ void main() {
   runApp( MyApp());
 }
 Future<void> sendMail(String userName,String password,String name,String recipientMail,String subject,String text) async {
- // String username = 'mustafa134bs@gmail.com'; // E-posta adresi
-  //String password = 'dftd vasq qpxq chtq'; // E-posta şifresi
 
   final smtpServer = gmail(userName, password);
 
